@@ -16,7 +16,11 @@ you should have a file called `.zshrc` under your home directory. Open any of th
 file for `zsh` into a text editor and add the following lines at the end of the file.
     ```shell
    export LOKI_USERNAME=<your-username-for-loki>                # Replace <...> with your actual username for loki server.
+   # Example: export LOKI_USERNAME="john"
+   
    export LOKI_PASSWORD=<your-password-for-loki>                # Replace <...> with your actual user password for loki server.
+   # Example: export LOKI_PASSWORD="password"
+   
    export STAGING_DB_USERNAME=<your-username-for-stating_db>    # Replace <...> with your actual database username for staging_db.
    export STAGING_DB_PASSWORD=<your-password-for-staging_db>    # Replace <...> with your actual database password for staging_db.
     ```
