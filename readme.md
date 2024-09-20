@@ -8,7 +8,7 @@
     ```shell
    echo $SHELL
     ```
-   You should get an output like `/bin/bash` or `/usr/bin/bash`, you're using `bash`. And if you're output
+   You should get an output like `/bin/bash` or `/usr/bin/bash`, you're using `bash`. And if your output
    is like `/bin/zsh` or `/bin/zsh`, you're using `zsh`.
 
 3. If you're using `bash`, you should have a file called `.bashrc` or `.profile`, or if you're using `zsh`,
